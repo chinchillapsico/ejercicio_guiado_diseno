@@ -1,0 +1,29 @@
+/*cuando la pantalla sea de minimo 535 y maximo 824 ocurre este diseño al dispositivo*/
+@media (min-width: 535px) and (max-width: 824px){
+	[class*="col-"]{
+		width: 100%;
+	}
+	body{
+		background: black;
+		font-family: 'Lobster', cursive;
+		color: white;
+	}
+	img{
+		border: 6px solid white;
+	}
+}
+
+/*cuando la pantalla sea de minimo 200 y maximo 534 ocurre este diseño al dispositivo*/
+@media (min-width: 200px) and (max-width: 534px){
+	[class*="col-"]{
+		width: 100%;
+	}
+	body{
+		background: #07B399;
+		font-family: 'Indie Flower', cursive;
+		color: #DFDFDF;
+	}
+	img{
+		border: none;
+	}
+}
